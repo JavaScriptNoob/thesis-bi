@@ -1,0 +1,251 @@
+id,country,revenue,profit,group,product,date,quantity
+1,Norway,1366,367,Tools,Spinach - Spinach Leaf,15/3/2023,34
+2,Sweden,1345,525,Electronics,Boogies,27/2/2023,187
+3,Sweden,1264,408,Sports,"Pail - 15l White, With Handle",6/2/2023,91
+4,Sweden,1264,284,Music,Remy Red,8/3/2023,130
+5,Sweden,1261,217,Books,Alize Red Passion,15/1/2023,123
+6,Sweden,1248,504,Tools,Cheese - Brick With Onion,8/2/2023,178
+7,Sweden,1357,440,Outdoors,Lettuce - California Mix,25/1/2023,25
+8,Sweden,1489,250,Home,Sugar - Individual Portions,5/1/2023,105
+9,Sweden,1394,507,Home,Napkin White,3/1/2023,36
+10,Germany,1485,318,Clothing,Cheese - Taleggio D.o.p.,30/1/2023,64
+11,Denmark,1260,552,Games,Pie Pecan,18/3/2023,144
+12,Germany,1376,423,Music,Bread - Italian Roll With Herbs,27/3/2023,141
+13,Germany,1107,187,Movies,Bacardi Raspberry,24/3/2023,162
+14,Sweden,1186,443,Computers,Lighter - Bbq,13/1/2023,121
+15,Sweden,1111,122,Health,Sambuca Cream,3/1/2023,157
+16,Germany,1407,200,Baby,Dried Peach,9/1/2023,49
+17,Sweden,1414,450,Games,Table Cloth 53x53 White,1/1/2023,47
+18,Sweden,1500,174,Outdoors,Cleaner - Lime Away,10/2/2023,76
+19,Sweden,1239,348,Industrial,Swiss Chard - Red,2/2/2023,42
+20,Sweden,1220,195,Beauty,Wild Boar - Tenderloin,11/3/2023,66
+21,Sweden,1191,428,Home,Coffee Cup 12oz 5342cd,30/1/2023,136
+22,Denmark,1233,569,Industrial,Otomegusa Dashi Konbu,14/3/2023,94
+23,Denmark,1135,314,Toys,Tomatoes,5/3/2023,158
+24,Sweden,1413,327,Outdoors,Chicken - White Meat With Tender,24/2/2023,89
+25,Norway,1124,366,Shoes,Veal - Inside,4/3/2023,170
+26,Sweden,1264,422,Home,"Placemat - Scallop, White",3/2/2023,120
+27,Sweden,1401,252,Electronics,"Tomatoes - Diced, Canned",3/3/2023,50
+28,Sweden,1469,121,Automotive,Pork - Suckling Pig,6/3/2023,130
+29,Sweden,1411,343,Garden,Shrimp - Black Tiger 6 - 8,21/3/2023,97
+30,Germany,1432,335,Sports,Flour - Pastry,3/3/2023,133
+31,Norway,1424,519,Tools,Onions - Vidalia,8/2/2023,155
+32,Sweden,1109,195,Grocery,Water - Spring Water 500ml,1/1/2023,129
+33,Sweden,1129,229,Books,"Turkey - Breast, Double",19/2/2023,101
+34,Sweden,1244,481,Jewelry,Yoplait - Strawbrasp Peac,22/3/2023,103
+35,Sweden,1349,551,Health,Pepper - Green Thai,23/1/2023,147
+36,Sweden,1285,494,Tools,Onions - Cippolini,28/3/2023,114
+37,Sweden,1466,516,Toys,Noodles - Steamed Chow Mein,7/2/2023,149
+38,Sweden,1111,162,Grocery,Garlic - Peeled,29/3/2023,156
+39,Sweden,1316,249,Tools,Corn Meal,24/2/2023,175
+40,Germany,1466,457,Outdoors,Beer - True North Strong Ale,27/2/2023,169
+41,Sweden,1391,363,Electronics,Cheese - Cheddar With Claret,1/1/2023,139
+42,Sweden,1158,549,Kids,Island Oasis - Sweet And Sour Mix,16/2/2023,49
+43,Sweden,1330,406,Grocery,"Iced Tea - Lemon, 460 Ml",9/3/2023,167
+44,Norway,1363,494,Automotive,Tea - Honey Green Tea,28/2/2023,119
+45,Sweden,1170,408,Sports,Bread - Flat Bread,12/3/2023,55
+46,Norway,1480,381,Grocery,Cheese - Wine,11/2/2023,169
+47,Sweden,1178,246,Beauty,Octopus,11/3/2023,124
+48,Sweden,1442,528,Shoes,Capon - Whole,15/2/2023,72
+49,Germany,1495,457,Movies,Lemon Balm - Fresh,2/1/2023,76
+50,Sweden,1323,310,Games,Sun - Dried Tomatoes,6/3/2023,131
+51,Sweden,1249,322,Electronics,Milk - Condensed,19/1/2023,152
+52,Sweden,1131,499,Beauty,Bread - English Muffin,23/3/2023,189
+53,Norway,1218,366,Jewelry,"Pork - Bacon,back Peameal",9/3/2023,105
+54,Sweden,1214,563,Health,Wine - Chablis 2003 Champs,22/3/2023,53
+55,Sweden,1137,568,Grocery,"Beer - Alexander Kieths, Pale Ale",19/1/2023,115
+56,Sweden,1431,207,Shoes,"Pepper - White, Ground",8/1/2023,63
+57,Sweden,1346,453,Industrial,Breakfast Quesadillas,8/3/2023,117
+58,Sweden,1244,153,Tools,Broom Handle,31/1/2023,90
+59,Norway,1392,402,Industrial,Gatorade - Fruit Punch,1/3/2023,93
+60,Sweden,1418,248,Garden,Oil - Olive Bertolli,12/3/2023,135
+61,Norway,1205,434,Baby,"Juice - Clamato, 341 Ml",3/2/2023,138
+62,Germany,1382,408,Tools,Wine - George Duboeuf Rose,2/3/2023,164
+63,Sweden,1398,419,Home,Beef - Montreal Smoked Brisket,15/3/2023,127
+64,Sweden,1376,430,Toys,"Sugar - Brown, Individual",4/3/2023,87
+65,Sweden,1202,366,Grocery,"Red Snapper - Fresh, Whole",18/1/2023,152
+66,Sweden,1399,388,Shoes,Coffee Caramel Biscotti,14/3/2023,150
+67,Norway,1260,272,Kids,Chips Potato Swt Chilli Sour,10/2/2023,47
+68,Sweden,1272,339,Jewelry,Alize Sunset,21/2/2023,94
+69,Sweden,1211,534,Movies,Dip - Tapenade,24/2/2023,143
+70,Sweden,1375,258,Shoes,Sponge Cake Mix - Chocolate,23/2/2023,34
+71,Sweden,1336,256,Industrial,Wine - Manischewitz Concord,1/1/2023,129
+72,Sweden,1418,488,Jewelry,Wine - Soave Folonari,7/3/2023,140
+73,Norway,1170,276,Movies,Beer - Original Organic Lager,11/1/2023,170
+74,Sweden,1443,504,Sports,"Salsify, Organic",23/2/2023,143
+75,Sweden,1318,517,Shoes,"Wine - White, Chardonnay",24/2/2023,126
+76,Germany,1146,373,Toys,Steam Pan Full Lid,10/2/2023,47
+77,Norway,1411,165,Outdoors,"Basil - Primerba, Paste",24/1/2023,30
+78,Sweden,1451,335,Home,Haggis,1/2/2023,50
+79,Sweden,1162,486,Computers,"Bread - Multigrain, Loaf",13/3/2023,96
+80,Norway,1462,422,Tools,"Asparagus - White, Fresh",21/2/2023,105
+81,Sweden,1493,353,Kids,"Olives - Green, Pitted",27/3/2023,174
+82,Norway,1208,363,Garden,"Soup - Beef Conomme, Dry",5/2/2023,183
+83,Sweden,1328,517,Tools,Tea Peppermint,11/1/2023,65
+84,Sweden,1274,498,Industrial,Container - Foam Dixie 12 Oz,7/3/2023,40
+85,Sweden,1419,437,Outdoors,"Soup - Cream Of Broccoli, Dry",11/3/2023,140
+86,Sweden,1397,342,Health,Cake - Pancake,6/2/2023,156
+87,Sweden,1222,221,Grocery,Wine - Maipo Valle Cabernet,20/1/2023,188
+88,Sweden,1169,411,Games,Fennel,21/2/2023,36
+89,Sweden,1277,441,Electronics,Filter - Coffee,29/1/2023,78
+90,Sweden,1320,242,Automotive,Lettuce - Spring Mix,27/1/2023,117
+91,Sweden,1429,269,Grocery,"Bread - Pita, Mini",20/2/2023,77
+92,Sweden,1386,281,Shoes,Molasses - Fancy,5/2/2023,47
+93,Sweden,1388,513,Tools,Oil - Shortening - All - Purpose,29/3/2023,165
+94,Sweden,1351,268,Computers,Papadam,27/1/2023,89
+95,Norway,1457,231,Baby,Puree - Strawberry,28/2/2023,125
+96,Germany,1500,346,Games,Appetizer - Asian Shrimp Roll,26/2/2023,169
+97,Germany,1196,266,Movies,Potatoes - Idaho 80 Count,31/1/2023,173
+98,Sweden,1419,148,Movies,"Tomatoes - Vine Ripe, Red",17/3/2023,123
+99,Sweden,1265,306,Electronics,Tofu - Firm,8/1/2023,25
+100,Germany,1147,441,Jewelry,Foil Wrap,11/3/2023,42
+101,Sweden,1240,482,Health,Sprouts - Brussel,1/2/2023,26
+102,Norway,1449,366,Tools,Spice - Paprika,8/3/2023,80
+103,Germany,1175,334,Grocery,Appetizer - Mushroom Tart,13/2/2023,155
+104,Sweden,1395,410,Jewelry,Sauce - Thousand Island,10/2/2023,62
+105,Sweden,1212,468,Automotive,"Wine - Red, Gamay Noir",9/1/2023,25
+106,Norway,1276,402,Electronics,Wine - Spumante Bambino White,13/3/2023,125
+107,Sweden,1243,532,Books,Pastry - Cheese Baked Scones,5/3/2023,106
+108,Germany,1263,468,Health,Table Cloth - 53x69 Colour,3/3/2023,143
+109,Germany,1273,388,Garden,"Wine - White, Colubia Cresh",16/3/2023,106
+110,Sweden,1310,478,Clothing,Fond - Neutral,22/2/2023,156
+111,Sweden,1465,210,Health,Rambutan,31/1/2023,40
+112,Sweden,1449,387,Movies,"Sauce - Gravy, Au Jus, Mix",25/2/2023,165
+113,Sweden,1450,383,Kids,Soap - Pine Sol Floor Cleaner,14/1/2023,38
+114,Sweden,1463,475,Shoes,Table Cloth 120 Round White,18/1/2023,147
+115,Norway,1137,531,Clothing,"Beef - Kindney, Whole",7/2/2023,97
+116,Sweden,1343,516,Automotive,Veal - Eye Of Round,20/2/2023,167
+117,Sweden,1412,512,Sports,Beans - Kidney White,11/1/2023,102
+118,Norway,1120,258,Home,Spice - Greek 1 Step,1/2/2023,30
+119,Sweden,1397,486,Books,Wine - Muscadet Sur Lie,26/3/2023,187
+120,Sweden,1350,275,Health,Carbonated Water - Cherry,5/1/2023,87
+121,Sweden,1369,135,Electronics,Spinach - Frozen,2/1/2023,52
+122,Sweden,1119,188,Automotive,Bouillion - Fish,12/3/2023,54
+123,Sweden,1186,215,Movies,"Sauce - White, Mix",26/2/2023,152
+124,Germany,1322,385,Shoes,"Coconut - Shredded, Sweet",2/3/2023,119
+125,Sweden,1210,282,Toys,Chips Potato Swt Chilli Sour,13/3/2023,63
+126,Sweden,1228,539,Kids,"Pasta - Fettuccine, Dry",7/3/2023,98
+127,Sweden,1398,520,Sports,Wine - Hardys Bankside Shiraz,4/2/2023,42
+128,Sweden,1337,368,Garden,Vector Energy Bar,23/3/2023,74
+129,Sweden,1101,438,Books,Coffee Cup 8oz 5338cd,24/2/2023,37
+130,Sweden,1491,239,Beauty,Turkey - Ground. Lean,19/1/2023,73
+131,Sweden,1289,200,Books,Wine - Conde De Valdemar,20/3/2023,136
+132,Sweden,1146,270,Toys,Tomatoes - Hot House,21/2/2023,141
+133,Sweden,1332,247,Baby,Rice - Jasmine Sented,22/3/2023,55
+134,Sweden,1224,412,Garden,Nantucket - Kiwi Berry Cktl.,20/3/2023,39
+135,Norway,1467,394,Jewelry,Lumpfish Black,9/1/2023,176
+136,Germany,1323,221,Grocery,Steel Wool S.o.s,24/2/2023,62
+137,Sweden,1202,402,Kids,Cookies - Fortune,9/2/2023,166
+138,Norway,1393,296,Sports,Juice - Propel Sport,28/1/2023,109
+139,Sweden,1478,442,Home,Teriyaki Sauce,11/3/2023,75
+140,Sweden,1224,398,Games,Chicken Thigh - Bone Out,15/2/2023,157
+141,Germany,1147,453,Kids,Tea - Camomele,24/3/2023,146
+142,Sweden,1459,387,Industrial,Broom - Push,9/2/2023,35
+143,Sweden,1335,220,Games,Bread - Assorted Rolls,17/1/2023,56
+144,Norway,1197,547,Baby,Crab - Meat Combo,11/1/2023,166
+145,Sweden,1229,122,Grocery,Pastry - Key Limepoppy Seed Tea,7/3/2023,50
+146,Sweden,1107,280,Shoes,"Crush - Orange, 355ml",3/3/2023,113
+147,Sweden,1480,200,Music,Papadam,19/2/2023,96
+148,Sweden,1447,401,Beauty,Wine - Niagara Peninsula Vqa,18/2/2023,141
+149,Norway,1344,367,Automotive,Puree - Pear,9/3/2023,179
+150,Norway,1390,131,Electronics,Wine - Prosecco Valdobienne,20/3/2023,187
+151,Sweden,1374,288,Shoes,Numi - Assorted Teas,11/1/2023,117
+152,Germany,1196,431,Home,"Halibut - Whole, Fresh",7/2/2023,134
+153,Norway,1216,387,Grocery,Caviar - Salmon,19/2/2023,51
+154,Sweden,1418,468,Toys,"Wine - White, Cooking",28/3/2023,172
+155,Sweden,1457,162,Movies,Dill Weed - Dry,27/2/2023,80
+156,Norway,1258,349,Grocery,Scallops - In Shell,23/2/2023,102
+157,Sweden,1304,156,Tools,Peach - Fresh,7/3/2023,35
+158,Norway,1496,498,Movies,Sprite - 355 Ml,5/1/2023,81
+159,Sweden,1209,386,Grocery,Beer - Molson Excel,23/2/2023,86
+160,Sweden,1241,511,Automotive,"Salt - Rock, Course",18/2/2023,163
+161,Sweden,1341,280,Outdoors,Island Oasis - Banana Daiquiri,18/2/2023,35
+162,Germany,1178,224,Baby,Tea - Camomele,19/3/2023,58
+163,Sweden,1374,411,Books,Absolut Citron,6/2/2023,128
+164,Norway,1166,227,Industrial,Ecolab - Medallion,11/1/2023,56
+165,Norway,1299,267,Games,Piping Jelly - All Colours,10/3/2023,106
+166,Norway,1303,124,Shoes,Onions - Vidalia,20/3/2023,162
+167,Sweden,1181,540,Outdoors,Water - Spring 1.5lit,16/3/2023,127
+168,Norway,1108,293,Toys,"Thyme - Lemon, Fresh",12/1/2023,176
+169,Sweden,1354,526,Home,Juice - Happy Planet,20/1/2023,77
+170,Sweden,1282,170,Sports,Beef - Ox Tongue,4/2/2023,59
+171,Sweden,1308,353,Beauty,"Peas - Pigeon, Dry",24/1/2023,133
+172,Sweden,1352,346,Games,"Butter - Salted, Micro",18/3/2023,34
+173,Sweden,1185,153,Books,"Veal - Brisket, Provimi, Bone - In",21/2/2023,142
+174,Norway,1249,567,Books,Wine - Alsace Riesling Reserve,27/3/2023,170
+175,Sweden,1365,450,Grocery,Cheese - Pied De Vents,4/2/2023,186
+176,Sweden,1370,315,Beauty,Tart - Raisin And Pecan,5/2/2023,182
+177,Germany,1381,341,Games,Toothpick Frilled,14/3/2023,144
+178,Sweden,1220,556,Health,Lemon Tarts,20/3/2023,185
+179,Norway,1164,454,Movies,Basil - Seedlings Cookstown,10/1/2023,37
+180,Sweden,1162,328,Outdoors,"Peas - Pigeon, Dry",14/1/2023,112
+181,Denmark,1365,321,Clothing,Cheese Cloth No 60,12/3/2023,72
+182,Sweden,1371,162,Toys,Tea - Lemon Green Tea,11/3/2023,144
+183,Sweden,1446,249,Outdoors,Yogurt - Assorted Pack,24/2/2023,182
+184,Sweden,1167,506,Games,Chinese Lemon Pork,8/2/2023,140
+185,Sweden,1432,335,Jewelry,Beer - Original Organic Lager,1/2/2023,30
+186,Sweden,1249,288,Movies,Juice - Lemon,4/3/2023,101
+187,Sweden,1482,415,Music,Lid Tray - 12in Dome,16/3/2023,102
+188,Denmark,1118,442,Automotive,"Veal - Insides, Grains",19/2/2023,176
+189,Sweden,1382,560,Toys,Cranberries - Frozen,27/3/2023,127
+190,Sweden,1453,438,Automotive,"Turkey - Breast, Double",23/2/2023,26
+191,Sweden,1155,339,Health,Muffin - Mix - Strawberry Rhubarb,5/2/2023,102
+192,Sweden,1159,280,Tools,Ice Cream Bar - Hageen Daz To,29/3/2023,50
+193,Sweden,1195,403,Jewelry,"Ham - Smoked, Bone - In",17/3/2023,143
+194,Sweden,1179,316,Sports,"Veal - Insides, Grains",4/2/2023,137
+195,Norway,1171,139,Outdoors,Crab Meat Claw Pasteurise,2/2/2023,175
+196,Germany,1136,359,Clothing,Meldea Green Tea Liquor,5/1/2023,134
+197,Denmark,1486,484,Industrial,Energy Drink - Franks Pineapple,18/1/2023,109
+198,Germany,1120,401,Automotive,"Beans - Navy, Dry",22/1/2023,76
+199,Sweden,1241,232,Computers,"Squash - Pattypan, Yellow",18/3/2023,176
+200,Sweden,1227,443,Clothing,Transfer Sheets,23/2/2023,127
+201,Sweden,1340,563,Movies,"Hickory Smoke, Liquid",20/1/2023,34
+202,Sweden,1206,483,Automotive,Garbage Bags - Clear,25/3/2023,100
+203,Norway,1494,304,Clothing,Snapple - Mango Maddness,15/2/2023,145
+204,Norway,1490,414,Outdoors,"Lentils - Red, Dry",23/1/2023,118
+205,Sweden,1212,143,Automotive,Wood Chips - Regular,18/2/2023,53
+206,Sweden,1463,245,Baby,Capon - Whole,23/3/2023,150
+207,Sweden,1224,208,Outdoors,"C - Plus, Orange",11/2/2023,74
+208,Sweden,1159,256,Books,"Cherries - Maraschino,jar",11/3/2023,131
+209,Sweden,1164,165,Games,Orange Roughy 4/6 Oz,1/2/2023,142
+210,Sweden,1498,521,Toys,"Pepper - Chipotle, Canned",6/3/2023,176
+211,Sweden,1260,245,Toys,Mortadella,15/1/2023,133
+212,Sweden,1321,185,Grocery,Compound - Rum,16/3/2023,136
+213,Sweden,1372,454,Tools,"Fish - Artic Char, Cold Smoked",22/3/2023,52
+214,Norway,1155,218,Sports,Beef Cheek Fresh,13/1/2023,159
+215,Sweden,1305,153,Kids,"Wine - White, Schroder And Schyl",13/1/2023,175
+216,Sweden,1486,316,Sports,Soup - Campbells Chili Veg,10/1/2023,184
+217,Sweden,1364,341,Tools,Butter - Pod,19/3/2023,111
+218,Sweden,1267,531,Books,Ice Cream Bar - Drumstick,23/3/2023,68
+219,Sweden,1415,278,Shoes,"Cheese - Cheddar, Medium",18/2/2023,111
+220,Sweden,1297,494,Beauty,Lamb Rack - Ontario,27/2/2023,161
+221,Sweden,1497,568,Grocery,Curry Paste - Madras,21/2/2023,59
+222,Sweden,1311,381,Books,Meldea Green Tea Liquor,2/3/2023,70
+223,Sweden,1185,333,Sports,Shark - Loin,28/1/2023,98
+224,Sweden,1133,203,Tools,Pastry - Choclate Baked,11/2/2023,132
+225,Sweden,1167,423,Grocery,Ginger - Fresh,29/1/2023,26
+226,Sweden,1150,308,Baby,"Pepper - Black, Whole",3/2/2023,62
+227,Germany,1293,470,Beauty,"Beef - Rib Roast, Capless",2/1/2023,84
+228,Sweden,1262,547,Industrial,"Pepper - Black, Ground",3/3/2023,162
+229,Sweden,1310,407,Books,Sesame Seed,4/3/2023,145
+230,Sweden,1247,376,Industrial,"Wine - Red, Black Opal Shiraz",23/3/2023,54
+231,Sweden,1355,366,Electronics,"Ham - Smoked, Bone - In",23/1/2023,163
+232,Sweden,1163,450,Kids,Easy Off Oven Cleaner,21/2/2023,114
+233,Sweden,1349,150,Jewelry,Shrimp - Tiger 21/25,9/1/2023,121
+234,Sweden,1188,127,Shoes,Container Clear 8 Oz,2/2/2023,184
+235,Norway,1196,446,Movies,"Oil - Olive, Extra Virgin",17/2/2023,123
+236,Sweden,1457,350,Computers,Ecolab - Solid Fusion,11/2/2023,159
+237,Sweden,1211,471,Tools,Oil - Coconut,20/1/2023,26
+238,Sweden,1155,436,Kids,"Wine - Bourgogne 2002, La",20/1/2023,103
+239,Sweden,1266,217,Sports,"Nut - Chestnuts, Whole",2/1/2023,128
+240,Sweden,1446,569,Music,Tray - 16in Rnd Blk,15/2/2023,135
+241,Sweden,1285,296,Home,Spinach - Frozen,9/3/2023,110
+242,Sweden,1233,399,Automotive,"Seedlings - Buckwheat, Organic",13/3/2023,135
+243,Germany,1266,409,Home,Pernod,11/1/2023,118
+244,Denmark,1182,358,Movies,"Beef - Chuck, Boneless",9/3/2023,129
+245,Sweden,1187,233,Grocery,Ice Cream Bar - Hagen Daz,22/1/2023,153
+246,Sweden,1113,498,Kids,Tomatoes - Cherry,18/1/2023,165
+247,Sweden,1100,161,Beauty,Wine - Acient Coast Caberne,19/3/2023,78
+248,Sweden,1322,272,Movies,"Wine - Red, Gallo, Merlot",5/2/2023,118
+249,Norway,1202,153,Outdoors,"Chicken - Leg, Boneless",5/2/2023,126
+250,Sweden,1176,502,Electronics,Mousse - Mango,4/3/2023,126
