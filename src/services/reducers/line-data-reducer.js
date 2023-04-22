@@ -12,7 +12,8 @@ const initialState = {
         case PROCESS_FOR_LINE:
             return {
                 ...state,
-                lineData: action.payload
+                lineData: action.payload,
+                processSuccess: true
             }
         default:
             return state

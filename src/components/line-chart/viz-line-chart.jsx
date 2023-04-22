@@ -1,13 +1,25 @@
 import {useEffect, useRef} from "react";
 import * as d3 from "d3";
 import {Button} from "antd";
-import lineData from "../../../src/data/3_TwoNumOrdered_comma.csv"
-const VizLineChart = () => {
-    const ref = useRef(null);
-    const line =lineData
+import {shallowEqual, useSelector} from "react-redux";
+import {freeze} from "@reduxjs/toolkit";
+import _ from 'lodash'
 
+const VizLineChart = (props) => {
+    const ref = useRef(null);
+
+
+let line =[]
+const arr = [...props.data.lineData]
+    if (arr !== null) {
+
+        line= _.cloneDeep(arr);
+        console.log(line,99999999999999)
+    }
 
 const plotLine =()=>{
+
+    console.log(line,'inplotline')
     const margin = {top: 10, right: 30, bottom: 30, left: 60},
         width =760 - margin.left - margin.right,
         height = 200 - margin.top - margin.bottom;
@@ -19,76 +31,51 @@ const plotLine =()=>{
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
+    if (typeof line[0].date === 'string' || line[0].date instanceof String){
+    line.forEach(function (d) {
+        d.date = d3.timeParse("%d/%m/%Y")(d.date);
+        d.revenue = +d.revenue;
+    });}
+    let x = d3.scaleTime()
+        .domain(d3.extent(line, function (d) { return d.date; }))
+        .range([0, width]);
+    svg.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x));
 
-//Read the data
-    d3.csv(line,
+    // Add Y axis
+    var y = d3.scaleLinear()
+        .domain([0, d3.max(line, function (d) { return +d.revenue; })])
+        .range([height, 0]);
+    svg.append("g")
+        .call(d3.axisLeft(y));
 
-        // When reading the csv, I must format variables:
-        function(d){
-            return { date : d3.timeParse("%Y-%m-%d")(d.date), value : d.value }
-        }).then(
+    // Add the line
+    svg.append("path")
+        .datum(line)
+        .attr("fill", "none")
+        .attr("stroke", "steelblue")
+        .attr("stroke-width", 1.5)
+        .attr("d", d3.line()
+            .x(function (d) { return x(d.date) })
+            .y(function (d) { return y(d.revenue) })
+        )
 
-        // Now I can use this dataset:
-        function(data) {
 
-            // Add X axis --> it
-            const x = d3.scaleTime()
-                .domain(d3.extent(data, function(d) { return d.date; }))
-                .range([ 0, width ]);
-            svg.append("g")
-                .attr("transform", `translate(0, ${height})`)
-                .call(d3.axisBottom(x));
 
-            // Max value observed:
-            const max = d3.max(data, function(d) { return +d.value; })
-
-            // Add Y axis
-            const y = d3.scaleLinear()
-                .domain([0, max])
-                .range([ height, 0 ]);
-            svg.append("g")
-                .call(d3.axisLeft(y));
-
-            // Set the gradient
-            svg.append("linearGradient")
-                .attr("id", "line-gradient")
-                .attr("gradientUnits", "userSpaceOnUse")
-                .attr("x1", 0)
-                .attr("y1", y(0))
-                .attr("x2", 0)
-                .attr("y2", y(max))
-                .selectAll("stop")
-                .data([
-                    {offset: "0%", color:"#008B8B"},
-                    {offset: "100%", color: "#B48EAD"}
-                ])
-                .enter().append("stop")
-                .attr("offset", function(d) { return d.offset; })
-                .attr("stop-color", function(d) { return d.color; });
-
-            // Add the line
-            svg.append("path")
-                .data(data)
-                .attr("fill", "none")
-                .attr("stroke", "url(#line-gradient)" )
-                .attr("stroke-width", 2)
-                .attr("d", d3.line()
-                    .x(function(d) { return x(d.date) })
-                    .y(function(d) { return y(d.value) })
-                )
-
-        })
 }
 
     useEffect(() => {
         return () => {
+plotLine()
 
-            plotLine()
 
         }
-    }, []);
+    }, );
+
+
     return <div ref={ref}>
-        <Button> Button</Button>
+
     </div>
 }
 export default VizLineChart

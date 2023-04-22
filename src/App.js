@@ -72,11 +72,17 @@ function App() {
                 return { date: entry[0], revenue: entry[1] };
             });
             arr.map((d, i)=>Object.keys(d).forEach(key => d[key] === undefined ? arr.splice(i, 1): {}))
+            arr.sort((a, b) => {
+                const dateA = new Date(a.date.split('/').reverse().join('-'));
+                const dateB = new Date(b.date.split('/').reverse().join('-'));
+                return dateA - dateB;
+            });
 
 
-                setDataLine(arr)
+            console.log(arr, 'efter sort')
+
             dispatch(setLineData(arr))
-
+            //
             console.log(arr, 'in app');
 
 

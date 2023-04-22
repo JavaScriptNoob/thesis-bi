@@ -25,6 +25,7 @@ const VizGroupChart =()=>{
          axisTicks = {qty:10, outerSize: 50, dateFormat: '%m-%d'};
 
      var svg = container
+
          .append("svg")
          .attr("width", width)
          .attr("height", height)
@@ -45,6 +46,7 @@ const VizGroupChart =()=>{
 
      var model_name = svg.selectAll(".model_name")
          .data(group)
+
          .enter().append("g")
          .attr("class", "model_name")
          .attr("transform", d => `translate(${xScale0(d.group)},0)`)
@@ -112,7 +114,7 @@ const VizGroupChart =()=>{
 
         };
 
-    }, );
+    },[] );
     return <div>
 
         <div ref={ref} >
