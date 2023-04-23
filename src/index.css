@@ -47,3 +47,9 @@ ul>li>a{
 .ant-pagination-item>a{
   font-size: 12px;
 }
+.tooltip {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+}

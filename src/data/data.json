@@ -1208,6 +1208,105 @@
     "product": "Caviar - Salmon",
     "date": "19/2/2023",
     "quantity": 51
+  },{
+  "id": 1,
+  "country": "Norway",
+  "revenue": 1494,
+  "profit": 299,
+  "group": "Tools",
+  "product": "Spinach - Spinach Leaf",
+  "date": "15/3/2023",
+  "quantity": 34
+},
+  {
+    "id": 2,
+    "country": "Sweden",
+    "revenue": 1843,
+    "profit": 294,
+    "group": "Electronics",
+    "product": "Boogies",
+    "date": "27/2/2023",
+    "quantity": 187
+  },
+  {
+    "id": 3,
+    "country": "Sweden",
+    "revenue": 1365,
+    "profit": 321,
+    "group": "Sports",
+    "product": "Pail - 15l White, With Handle",
+    "date": "6/2/2023",
+    "quantity": 91
+  },
+  {
+    "id": 5,
+    "country": "Sweden",
+    "revenue": 1178,
+    "profit": 374,
+    "group": "Books",
+    "product": "Alize Red Passion",
+    "date": "15/1/2023",
+    "quantity": 123
+  },
+  {
+    "id": 6,
+    "country": "Sweden",
+    "revenue": 1860,
+    "profit": 285,
+    "group": "Tools",
+    "product": "Cheese - Brick With Onion",
+    "date": "8/2/2023",
+    "quantity": 178
+  },
+  {
+    "id": 7,
+    "country": "Sweden",
+    "revenue": 1732,
+    "profit": 498,
+    "group": "Outdoors",
+    "product": "Lettuce - California Mix",
+    "date": "25/1/2023",
+    "quantity": 25
+  },
+  {
+    "id": 8,
+    "country": "Sweden",
+    "revenue": 1645,
+    "profit": 362,
+    "group": "Home",
+    "product": "Sugar - Individual Portions",
+    "date": "5/1/2023",
+    "quantity": 105
+  },
+  {
+    "id": 9,
+    "country": "Sweden",
+    "revenue": 1412,
+    "profit": 208,
+    "group": "Home",
+    "product": "Napkin White",
+    "date": "3/1/2023",
+    "quantity": 36
+  },
+  {
+    "id": 11,
+    "country": "Denmark",
+    "revenue": 1572,
+    "profit": 198,
+    "group": "Games",
+    "product": "Pie Pecan",
+    "date": "18/3/2023",
+    "quantity": 144
+  },
+  {
+    "id": 12,
+    "country": "Germany",
+    "revenue": 1321,
+    "profit": 391,
+    "group": "Music",
+    "product": "Bread - Italian Roll With Herbs",
+    "date": "27/3/2023",
+    "quantity": 141
   },
   {
     "id": 154,
@@ -1428,7 +1527,7 @@
   {
     "id": 181,
     "country": "Denmark",
-    "revenue": 13650,
+    "revenue": 1265,
     "profit": 321,
     "group": "Clothing",
     "product": "Cheese Cloth No 60",

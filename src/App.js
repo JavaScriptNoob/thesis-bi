@@ -14,6 +14,8 @@ import {setGroupedData} from "./services/actions/grouped-data";
 import {setPieData} from "./services/actions/pie-data";
 import {setLineData} from "./services/actions/line-data";
 import TableView from "./components/table/table-view";
+import VizScatterChart from "./components/scatter-plot/viz-scatter-chart";
+import ScatterChart from "./components/scatter-plot/scatter-chart";
 
 
 function App() {
@@ -151,6 +153,16 @@ function App() {
                 <Content className="row-middle" >
                     <Row >
                         <Col span={24}>
+                            <ScatterChart/>
+                        </Col>
+
+
+                    </Row>
+
+                </Content>
+                <Content className="row-middle" >
+                    <Row >
+                        <Col span={24}>
                            <TableView/>
                         </Col>
 
@@ -158,6 +170,7 @@ function App() {
                     </Row>
 
                 </Content>
+
 
 
                 <Footer style={{ textAlign: 'center' }}></Footer>
