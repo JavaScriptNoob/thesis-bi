@@ -13,6 +13,7 @@ import {setInitialData} from "./services/actions/data-processing";
 import {setGroupedData} from "./services/actions/grouped-data";
 import {setPieData} from "./services/actions/pie-data";
 import {setLineData} from "./services/actions/line-data";
+import TableView from "./components/table/table-view";
 
 
 function App() {
@@ -124,28 +125,39 @@ function App() {
                         </li>
                     </ul>
                 </header>
-                <Content style={{ padding: '0 50px' }}>
+                <Content >
                     <div className="site-layout-content">
                        <LineChart />
                     </div>
 
                 </Content>
 
-                <Content className="row-middle" style={{ padding: '0 50px' }}>
+                <Content className="row-middle" >
                     <Row >
-                        <Col span={12}>
-                            <div className="site-layout-content align-self">
+                        <Col span={16}>
+                            <div >
+                                <GroupedBarChart />
+                            </div>
+                        </Col>
+                        <Col span={8}>
+                            <div>
                                 {dataPie.length===4&&<Piechart data={dataPie}/>}
                             </div>
                         </Col>
-                        <Col span={12}>
-                            <div className="site-layout-content">
-                             <GroupedBarChart />
-                            </div>
-                        </Col>
+
                     </Row>
 
             </Content>
+                <Content className="row-middle" >
+                    <Row >
+                        <Col span={24}>
+                           <TableView/>
+                        </Col>
+
+
+                    </Row>
+
+                </Content>
 
 
                 <Footer style={{ textAlign: 'center' }}></Footer>

@@ -3,8 +3,9 @@ import styles from "./bar-chart.module.css"
 import VizGroupChart from "./viz-group-chart";
 import {Slider, Switch} from "antd";
 import {useSelector} from "react-redux";
+import {TableItem} from "./table-item";
 const GroupedBarChart=()=> {
-    const success  =useSelector(state => state.grouped.groupingSuccess)
+    const success  =useSelector(state => state.grouped)
 
 
 
@@ -12,10 +13,17 @@ const GroupedBarChart=()=> {
 
 
     return (
-
+<div className={styles.wrapper}>
         <div className={styles.container}>
-            {success&& <VizGroupChart />}
+            {success.groupingSuccess&& <VizGroupChart />}
+            <div className={styles.scroll}>
+                {success.groupedData.map((item,index)=>
+                    (<TableItem key={index} data={item}/>))
+                }
+            </div>
         </div>
+
+</div>
     )
     }
 export  default GroupedBarChart

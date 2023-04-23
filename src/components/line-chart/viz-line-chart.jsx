@@ -21,12 +21,13 @@ const plotLine =()=>{
 
     console.log(line,'inplotline')
     const margin = {top: 10, right: 30, bottom: 30, left: 60},
-        width =760 - margin.left - margin.right,
+        width =980 - margin.left - margin.right,
         height = 200 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
     const svg = d3.select(ref.current)
         .append("svg")
+        .attr('margin-left', '150px')
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")

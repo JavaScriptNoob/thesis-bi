@@ -44,3 +44,6 @@ ul>li>a{
 
 }
 
+.ant-pagination-item>a{
+  font-size: 12px;
+}

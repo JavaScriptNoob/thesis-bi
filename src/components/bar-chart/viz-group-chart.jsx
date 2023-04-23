@@ -18,7 +18,7 @@ const VizGroupChart =()=>{
 
  const createBar = () => {
      var container = d3.select(ref.current),
-         width = 500,
+         width = 400,
          height = 400,
          margin = {top: 30, right: 20, bottom:150, left: 50},
          barPadding = 0,
