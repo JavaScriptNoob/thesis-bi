@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 import { useEffect, useRef } from "react";
-
+import style from './scatter-chart.module.css'
 
 const VizScatterChart = (props) => {
     const svgRef = useRef(null);
@@ -40,6 +40,11 @@ const VizScatterChart = (props) => {
         // Add the y-axis
         svg.append("g").call(d3.axisLeft(yScale));
 
+
+        const tooltip = d3.select(tooltipRef.current)
+            .style("position", "absolute")
+            .style("z-index", "100")
+            .style("display", "none");
         // Add the scatter plot points
         svg
             .selectAll("circle")
@@ -50,15 +55,19 @@ const VizScatterChart = (props) => {
             .attr("cy", (d) => yScale(d.revenue))
             .attr("r", 5)
             .attr("fill", (d) => colors(d.country))
-            .on("mouseover", (event, d) => {
+            .on("mousemove", (event, d) => {
                 // Show the tooltip
                 const tooltip = d3.select(tooltipRef.current);
                 tooltip.style("display", "inline-block");
                 tooltip.html(`<p>Country: ${d.country}</p><p>Quantity: ${d.quantity}</p><p>Revenue: ${d.revenue}</p>`);
 
                 // Position the tooltip over the mouse cursor
-                tooltip.style("left", `${event.pageX}px`);
-                tooltip.style("top", `${event.pageY}px`);
+                const tooltipWidth = tooltip.node().offsetWidth;
+                const tooltipHeight = tooltip.node().offsetHeight;
+                const x = Math.min(event.clientX + 10, window.innerWidth - tooltipWidth - 10);
+                const y = Math.min(event.clientY + 10, window.innerHeight - tooltipHeight - 10);
+                tooltip.style("left", `${x-90}px`);
+                tooltip.style("top", `${y-220}px`);
             })
             .on("mouseout", () => {
                 // Hide the tooltip
@@ -67,14 +76,10 @@ const VizScatterChart = (props) => {
             });
 
 
-
     }, [props]);
 
-    return <>
-        <svg ref={svgRef}></svg>
-        <div ref={tooltipRef}></div>
-
-
+    return <><svg ref={svgRef}></svg>
+        <div ref={tooltipRef} className={style.border}></div>
     </>;
 };
 
