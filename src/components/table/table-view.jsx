@@ -17,12 +17,27 @@ const TableView = () => {
         {
             title: 'Revenue',
             dataIndex: 'revenue',
+            render(text, record) {
+                return {
+                    props: {
+                        style: { background: parseInt(text) > 1250 ? "red" : "green" }
+                    },
+                    children: <div>{text}</div>
+                };
+            }
 
         },
         {
             title: 'Profit',
             dataIndex: 'profit',
-
+            render(text, record) {
+                return {
+                    props: {
+                        style: { background: parseInt(text) > 400 ? "steelblue" : "green" }
+                    },
+                    children: <div>{text}</div>
+                };
+            }
         },
         {
             title: 'Group',

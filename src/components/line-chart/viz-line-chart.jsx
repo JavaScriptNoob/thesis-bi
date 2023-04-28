@@ -1,14 +1,14 @@
-import {useEffect, useRef} from "react";
+import {useEffect, useLayoutEffect, useRef, useState} from "react";
 import * as d3 from "d3";
 import {zoom} from 'd3-zoom';
 import {Button} from "antd";
 import {shallowEqual, useSelector} from "react-redux";
 import {freeze} from "@reduxjs/toolkit";
 import _ from 'lodash'
-
+import style from './line-chart.module.css'
 const VizLineChart = (props) => {
     const ref = useRef(null);
-
+    const [selectedProperty, setSelectedProperty] = useState("revenue");
 
 let line =[]
 const arr = [...props.data.lineData]
@@ -18,16 +18,22 @@ const arr = [...props.data.lineData]
         console.log(line,99999999999999)
     }
 
-
+    const handlePropertyChange = (event) => {
+        setSelectedProperty(event.target.value);
+        plotLine()
+    };
     const plotLine = () => {
+        const colors = ["steelblue", "green", "red"];
+        d3.select(ref.current).select("svg").remove();
         console.log(line, "inplotline");
         const margin = { top: 10, right: 30, bottom: 30, left: 60 },
-            width = 980 - margin.left - margin.right,
+            width = 900 - margin.left - margin.right,
             height = 200 - margin.top - margin.bottom;
-
+        const allGroup = ["revenue", "quantity", "profit"]
         // append the svg object to the body of the page
         const svg = d3
             .select(ref.current)
+
             .append("svg")
             .attr("margin-left", "150px")
             .attr("width", width + margin.left + margin.right)
@@ -57,7 +63,7 @@ const arr = [...props.data.lineData]
         // Add Y axis
         var y = d3
             .scaleLinear()
-            .domain([0, d3.max(line, function (d) { return +d.revenue; })])
+            .domain([0, d3.max(line, function (d) { return +d[selectedProperty]; })])
             .range([height, 0]);
 
         svg.append("g").call(d3.axisLeft(y));
@@ -68,9 +74,9 @@ const arr = [...props.data.lineData]
             .datum(line)
             .attr("class", "line")
             .attr("fill", "none")
-            .attr("stroke", "steelblue")
+            .attr("stroke", colors[allGroup.indexOf(selectedProperty)])
             .attr("stroke-width", 1.5)
-            .attr("d", d3.line().x(function (d) { return x(d.date); }).y(function (d) { return y(d.revenue); }));
+            .attr("d", d3.line().x(function (d) { return x(d.date); }).y(function (d) { return y(d[selectedProperty]); }));
 
         // Add brush
         const brush = d3
@@ -101,7 +107,8 @@ const arr = [...props.data.lineData]
         }
     };
 
-    useEffect(() => {
+    useLayoutEffect(() => {
+
         return () => {
 plotLine()
 
@@ -110,8 +117,17 @@ plotLine()
     }, );
 
 
-    return <div ref={ref}>
+    return <div>
+        <select id="selectButton" onChange={handlePropertyChange} className={style.dropdown}>
+            <option value="revenue">Revenue</option>
 
+            <option value="profit">Profit</option>
+            <option value="quantity">Quantity</option>
+        </select>
+
+    <div ref={ref}>
+
+    </div>
     </div>
 }
 export default VizLineChart

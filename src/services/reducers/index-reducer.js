@@ -12,7 +12,7 @@ export const PROCESS_FOR_GROUP = 'PROCESS_FOR_GROUP';
 export const PROCESS_FOR_CHANGE = 'PROCESS_FOR_CHANGE';
 export const PROCESS_FOR_LINE = 'PROCESS_FOR_LINE';
 export const FILTER_DATA = 'FILTER_DATA';
-
+export  const SHOW_THE_GROUP ='SHOW_THE_GROUP';
 
 export const rootReducer = combineReducers({
     pie: pieDataReducer,

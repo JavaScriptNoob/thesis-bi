@@ -13,11 +13,13 @@ code {
     monospace;
 }
 main{
-  width: 800px;
-  display: flex;
-  justify-content: center;
-  margin: auto;
 
+  width: 880px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  border-radius: 16px;
+  box-shadow: 5px 8px 24px 5px rgba(161, 161, 161, 0.25);
 }
 .align-self{
 
@@ -31,9 +33,9 @@ ul{
   list-style-type: none;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 20px 0;
-  width: 800px;
+  width: 960px;
   margin: auto;
 
 }
@@ -52,4 +54,36 @@ ul>li>a{
   border: 1px solid black;
   padding: 10px;
   position: absolute;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 20px;
+}
+.ant-statistic-title{
+  font-size: 18px!important;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  font-weight:bold!important;
+}
+.main-tabs{
+  width: 960px;
+  padding: 20px;
+
+}
+.progress-bar{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  width: min-content;
+  padding-left: 10px;
+}
+.ant-progress-text {
+  padding: 20px 10px;
+}
+.ant-pagination{
+  padding-right: 70px;
 }

@@ -1,4 +1,4 @@
-import {PROCESS_FOR_GROUP} from "./index-reducer";
+import {PROCESS_FOR_GROUP,SHOW_THE_GROUP} from "./index-reducer";
 
 const initialState = {
     groupingSuccess: false,
@@ -6,6 +6,7 @@ const initialState = {
     groupedData: [],
     updatedData: [],
     stringifyData: [],
+    initialData:[]
 }
 export const groupedDataReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -13,7 +14,13 @@ export const groupedDataReducer = (state = initialState, action) => {
             return {
                 ...state,
                 groupedData:action.payload,
-                groupingSuccess: true
+                groupingSuccess: true,
+                initialData: action.payload[0]
+            }
+        case SHOW_THE_GROUP:
+            return {
+                ...state,
+                initialData: action.payload
             }
         default:
             return state

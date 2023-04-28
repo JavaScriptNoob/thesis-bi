@@ -7,7 +7,7 @@ const VizScatterChart = (props) => {
     const tooltipRef = useRef(null);
     useEffect(() => {
         const margin = { top: 20, right: 20, bottom: 60, left: 60 };
-        const width = 800 - margin.left - margin.right;
+        const width = 880 - margin.left - margin.right;
         const height = 500 - margin.top - margin.bottom;
 
         const svg = d3
@@ -19,7 +19,7 @@ const VizScatterChart = (props) => {
         const colors = d3
             .scaleOrdinal()
             .domain(props.data.map((d) => d.country))
-            .range(["#5B6F86", "#B48EAD", "#008B8B", "#9B97AB"]);
+            .range(["steelblue", "green", "red"]);
         // Create the scales
         const xScale = d3
             .scaleLinear()
